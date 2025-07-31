@@ -7,3 +7,14 @@ body {
   color: #f1f1f1;
   font-family: 'Inter', sans-serif;
 }
+/* Animation for the skills scroller */
+@layer utilities {
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .animate-scroll {
+    /* Adjust the duration to make it faster or slower */
+    animation: scroll 10s linear infinite;
+  }
+}

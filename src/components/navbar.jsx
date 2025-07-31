@@ -8,7 +8,7 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      <h1 className="text-xl font-bold">Dev Garg</h1>
+      <h1 className="text-xl font-bold">Welcome </h1>
       <ul className="flex gap-6 font-medium text-white">
         <li><a href="#about" className="hover:text-cyan-400 transition">About</a></li>
         <li><a href="#projects" className="hover:text-cyan-400 transition">Projects</a></li>
