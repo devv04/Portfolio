@@ -1,5 +1,7 @@
 import React from "react";
-import HeroSection from "./components/herosection";
+// ...existing code...
+import HeroSection from "./components/HeroSection";
+// ...existing code...
 import AboutSection from "./components/about";
 import Navbar from "./components/navbar";
 import Experience from "./components/Experience";
